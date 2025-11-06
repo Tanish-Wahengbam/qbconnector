@@ -7,7 +7,7 @@ function  custom_log($msg) {
 $requestBody = file_get_contents("php://input");
 
 // Configure remote connector URL (change as needed)
-$remote_url = 'https://shop.ballettechglobal.com/wp-json/wc/v3/orders';
+$remote_url = 'https://shop.ballettechglobal.com/qb-connector.php';
 
 // Prepare headers to forward (preserve Content-Type and any QBWC headers)
 $forward_headers = [];
