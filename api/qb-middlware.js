@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
   // --- START: Proxy forward to another connector ---
   //const remoteUrl = "https://shop.ballettechglobal.com/qb-connector.php";
-  const remoteUrl = "https://featureid.mindwebtree.com/qb-connector.php";
+  const remoteUrl = "https://tickets.gokuldham.org/qb-connector.php";
 
   try {
     // Read raw body
